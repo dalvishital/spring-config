@@ -1,7 +1,12 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
 build:
   version: "3.0"
 
-accounts:
+loans:
   message: "Welcome to EazyBank accounts related qa APIs "
   contactDetails:
     name: "John deer - architect"
